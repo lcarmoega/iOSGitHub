@@ -14,6 +14,15 @@
 		2E8D9DB01B68227E00CA8CC9 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2E8D9DAF1B68227E00CA8CC9 /* Images.xcassets */; };
 		2E8D9DB31B68227E00CA8CC9 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2E8D9DB11B68227E00CA8CC9 /* LaunchScreen.xib */; };
 		2E8D9DBF1B68227E00CA8CC9 /* TestAppTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E8D9DBE1B68227E00CA8CC9 /* TestAppTests.m */; };
+		2E8D9DCA1B6827FD00CA8CC9 /* DiceDataController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E8D9DC91B6827FD00CA8CC9 /* DiceDataController.m */; };
+		2E8D9DD41B682C0700CA8CC9 /* appIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = 2E8D9DCC1B682C0700CA8CC9 /* appIcon.png */; };
+		2E8D9DD51B682C0700CA8CC9 /* dice4.png in Resources */ = {isa = PBXBuildFile; fileRef = 2E8D9DCD1B682C0700CA8CC9 /* dice4.png */; };
+		2E8D9DD61B682C0700CA8CC9 /* dice1.png in Resources */ = {isa = PBXBuildFile; fileRef = 2E8D9DCE1B682C0700CA8CC9 /* dice1.png */; };
+		2E8D9DD71B682C0700CA8CC9 /* felt.png in Resources */ = {isa = PBXBuildFile; fileRef = 2E8D9DCF1B682C0700CA8CC9 /* felt.png */; };
+		2E8D9DD81B682C0700CA8CC9 /* dice2.png in Resources */ = {isa = PBXBuildFile; fileRef = 2E8D9DD01B682C0700CA8CC9 /* dice2.png */; };
+		2E8D9DD91B682C0700CA8CC9 /* dice3.png in Resources */ = {isa = PBXBuildFile; fileRef = 2E8D9DD11B682C0700CA8CC9 /* dice3.png */; };
+		2E8D9DDA1B682C0700CA8CC9 /* dice5.png in Resources */ = {isa = PBXBuildFile; fileRef = 2E8D9DD21B682C0700CA8CC9 /* dice5.png */; };
+		2E8D9DDB1B682C0700CA8CC9 /* dice6.png in Resources */ = {isa = PBXBuildFile; fileRef = 2E8D9DD31B682C0700CA8CC9 /* dice6.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +49,16 @@
 		2E8D9DB81B68227E00CA8CC9 /* TestAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TestAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2E8D9DBD1B68227E00CA8CC9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2E8D9DBE1B68227E00CA8CC9 /* TestAppTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestAppTests.m; sourceTree = "<group>"; };
+		2E8D9DC81B6827FD00CA8CC9 /* DiceDataController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DiceDataController.h; sourceTree = "<group>"; };
+		2E8D9DC91B6827FD00CA8CC9 /* DiceDataController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DiceDataController.m; sourceTree = "<group>"; };
+		2E8D9DCC1B682C0700CA8CC9 /* appIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = appIcon.png; path = ../../../Downloads/DiceImages/appIcon.png; sourceTree = "<group>"; };
+		2E8D9DCD1B682C0700CA8CC9 /* dice4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = dice4.png; path = ../../../Downloads/DiceImages/dice4.png; sourceTree = "<group>"; };
+		2E8D9DCE1B682C0700CA8CC9 /* dice1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = dice1.png; path = ../../../Downloads/DiceImages/dice1.png; sourceTree = "<group>"; };
+		2E8D9DCF1B682C0700CA8CC9 /* felt.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = felt.png; path = ../../../Downloads/DiceImages/felt.png; sourceTree = "<group>"; };
+		2E8D9DD01B682C0700CA8CC9 /* dice2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = dice2.png; path = ../../../Downloads/DiceImages/dice2.png; sourceTree = "<group>"; };
+		2E8D9DD11B682C0700CA8CC9 /* dice3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = dice3.png; path = ../../../Downloads/DiceImages/dice3.png; sourceTree = "<group>"; };
+		2E8D9DD21B682C0700CA8CC9 /* dice5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = dice5.png; path = ../../../Downloads/DiceImages/dice5.png; sourceTree = "<group>"; };
+		2E8D9DD31B682C0700CA8CC9 /* dice6.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = dice6.png; path = ../../../Downloads/DiceImages/dice6.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -87,8 +106,18 @@
 				2E8D9DAA1B68227E00CA8CC9 /* ViewController.m */,
 				2E8D9DAC1B68227E00CA8CC9 /* Main.storyboard */,
 				2E8D9DAF1B68227E00CA8CC9 /* Images.xcassets */,
+				2E8D9DCC1B682C0700CA8CC9 /* appIcon.png */,
+				2E8D9DCD1B682C0700CA8CC9 /* dice4.png */,
+				2E8D9DCE1B682C0700CA8CC9 /* dice1.png */,
+				2E8D9DCF1B682C0700CA8CC9 /* felt.png */,
+				2E8D9DD01B682C0700CA8CC9 /* dice2.png */,
+				2E8D9DD11B682C0700CA8CC9 /* dice3.png */,
+				2E8D9DD21B682C0700CA8CC9 /* dice5.png */,
+				2E8D9DD31B682C0700CA8CC9 /* dice6.png */,
 				2E8D9DB11B68227E00CA8CC9 /* LaunchScreen.xib */,
 				2E8D9DA21B68227D00CA8CC9 /* Supporting Files */,
+				2E8D9DC81B6827FD00CA8CC9 /* DiceDataController.h */,
+				2E8D9DC91B6827FD00CA8CC9 /* DiceDataController.m */,
 			);
 			path = TestApp;
 			sourceTree = "<group>";
@@ -199,8 +228,16 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2E8D9DD41B682C0700CA8CC9 /* appIcon.png in Resources */,
 				2E8D9DAE1B68227E00CA8CC9 /* Main.storyboard in Resources */,
+				2E8D9DDB1B682C0700CA8CC9 /* dice6.png in Resources */,
+				2E8D9DD71B682C0700CA8CC9 /* felt.png in Resources */,
+				2E8D9DD81B682C0700CA8CC9 /* dice2.png in Resources */,
 				2E8D9DB31B68227E00CA8CC9 /* LaunchScreen.xib in Resources */,
+				2E8D9DD51B682C0700CA8CC9 /* dice4.png in Resources */,
+				2E8D9DDA1B682C0700CA8CC9 /* dice5.png in Resources */,
+				2E8D9DD61B682C0700CA8CC9 /* dice1.png in Resources */,
+				2E8D9DD91B682C0700CA8CC9 /* dice3.png in Resources */,
 				2E8D9DB01B68227E00CA8CC9 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -221,6 +258,7 @@
 			files = (
 				2E8D9DAB1B68227E00CA8CC9 /* ViewController.m in Sources */,
 				2E8D9DA81B68227E00CA8CC9 /* AppDelegate.m in Sources */,
+				2E8D9DCA1B6827FD00CA8CC9 /* DiceDataController.m in Sources */,
 				2E8D9DA51B68227E00CA8CC9 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -416,6 +454,7 @@
 				2E8D9DC41B68227E00CA8CC9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		2E8D9DC51B68227E00CA8CC9 /* Build configuration list for PBXNativeTarget "TestAppTests" */ = {
 			isa = XCConfigurationList;
@@ -424,6 +463,7 @@
 				2E8D9DC71B68227E00CA8CC9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
