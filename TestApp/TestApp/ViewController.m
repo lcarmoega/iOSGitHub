@@ -7,12 +7,14 @@
 //
 
 #import "ViewController.h"
+#import "DiceDataController.h"
 
 @interface ViewController ()
 
 @end
 
 @implementation ViewController
+
 
 - (void)viewDidLoad {
     [super viewDidLoad];
@@ -22,6 +24,18 @@
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
+}
+
+- (IBAction)rollButtonClicked:(id)sender
+
+{
+
+    DiceDataController *model = [[DiceDataController alloc] init];
+    
+    int roll = [model getDiceRoll];
+    
+    //Paused on Video 5 Part 2, minute 4:00
+
 }
 
 @end
