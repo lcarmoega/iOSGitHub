@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2E7C66871B695CCF003852C6 /* DieView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E7C66861B695CCF003852C6 /* DieView.m */; };
 		2E8D9DA51B68227E00CA8CC9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E8D9DA41B68227E00CA8CC9 /* main.m */; };
 		2E8D9DA81B68227E00CA8CC9 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E8D9DA71B68227E00CA8CC9 /* AppDelegate.m */; };
 		2E8D9DAB1B68227E00CA8CC9 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E8D9DAA1B68227E00CA8CC9 /* ViewController.m */; };
@@ -36,6 +37,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2E7C66851B695CCF003852C6 /* DieView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DieView.h; sourceTree = "<group>"; };
+		2E7C66861B695CCF003852C6 /* DieView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DieView.m; sourceTree = "<group>"; };
 		2E8D9D9F1B68227D00CA8CC9 /* TestApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TestApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2E8D9DA31B68227D00CA8CC9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2E8D9DA41B68227E00CA8CC9 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -118,6 +121,8 @@
 				2E8D9DA21B68227D00CA8CC9 /* Supporting Files */,
 				2E8D9DC81B6827FD00CA8CC9 /* DiceDataController.h */,
 				2E8D9DC91B6827FD00CA8CC9 /* DiceDataController.m */,
+				2E7C66851B695CCF003852C6 /* DieView.h */,
+				2E7C66861B695CCF003852C6 /* DieView.m */,
 			);
 			path = TestApp;
 			sourceTree = "<group>";
@@ -258,6 +263,7 @@
 			files = (
 				2E8D9DAB1B68227E00CA8CC9 /* ViewController.m in Sources */,
 				2E8D9DA81B68227E00CA8CC9 /* AppDelegate.m in Sources */,
+				2E7C66871B695CCF003852C6 /* DieView.m in Sources */,
 				2E8D9DCA1B6827FD00CA8CC9 /* DiceDataController.m in Sources */,
 				2E8D9DA51B68227E00CA8CC9 /* main.m in Sources */,
 			);
